@@ -1,0 +1,186 @@
+body{
+    width:100%;
+    margin: 0 auto;
+    min-width:600px;
+    max-width:2000px
+}
+@font-face{
+    font-family:sk-concretica;
+    src: url(../Fontes/SK\ Concretica.otf);
+}
+@font-face {
+    font-family: Blatant;
+    src: url(../Fontes/Blatant.otf);
+}
+@font-face {
+    font-family: Symbol;
+    src: url(../Fontes/symbol.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100pt auto 100px auto 100pt;
+    column-gap: 1px;
+    row-gap: 42pt;
+    grid-template-areas:"Header"
+                        "Section1"
+                        "Section2"
+                        "Section3"
+                        "Footer";
+}
+/*Rodapé*/
+/*__Imagens*/
+#insta{
+    margin-top: 15px;
+    margin-left: 60px;
+    width: 105px;
+    height: 105px;
+}
+#insta:hover {
+    width: 105px;
+    height: 105px;
+}
+#Logo_f{
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 1px;
+    margin-right: 60px;
+}
+/*__Corpo*/
+#Footer{
+    grid-area: Footer;
+    background-color: #7674E1;
+    display: flex;
+    justify-content: space-between;
+}
+/*__Lista-de-Links*/
+footer ul{
+    margin-top: 40px;
+    margin-left: 5px;
+    display: flex;
+    list-style: none;
+}
+footer ul li{
+    padding-right: 1em;
+    padding-left: 0.8em;
+    margin: 0.05em;
+    font-size: 2em;
+}
+footer ul li a{
+    Color: #FFE11F;
+    text-decoration: none;
+    font-family: sk-concretica;
+}
+/*Conteudo*/
+/*__Seções de conteudo*/
+.prods{
+    margin-left:3em;
+    margin-right:3em;
+}
+#Section1{
+    grid-area: Section1;
+}
+#Section2{
+    grid-area: Section2;
+    display: flex;
+}
+#Section3{
+    grid-area: Section3;
+}
+/*__Produtos - Imagem*/
+.Prod_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Depo{
+    margin-top: 50px;
+    margin-left: 145px;
+    border-radius: 50%;
+    height: 190px;
+}
+.Img_Sob{
+    margin-left: 105px;
+    height: 115px;
+}
+/*__Produtos - Textos*/
+h1{
+    margin-left: 150px;
+    text-align: left;
+    font-family: Blatant;
+    color:#7674E1;
+    letter-spacing: 5px;
+    font-family: sk-concretica;
+    font-size: 70px;
+}
+h2{
+    margin-left: 180px;
+    margin-top: 20px;
+    text-align: left;
+    font-family: Blatant;
+    color:#7674E1;
+    letter-spacing: 5px;
+    font-family: sk-concretica;
+    font-size: 50px;
+}
+#Section2 h3{
+    margin-top: 35px;
+    margin-left: 40px;
+    text-align: left;
+    font-family: Blatant;
+    color:#2d232e;
+    letter-spacing: 5px;
+    font-family: sk-concretica;
+    font-size: 34px;
+}
+#Section3 h3{
+    margin-top: 37px;
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: left;
+    font-family: Blatant;
+    color:#2d232e;
+    font-family: sk-concretica;
+    font-size: 30px;
+}
+/*Cabeçalho*/
+.Nave:hover {
+    color: darkorange;
+}
+#logo{
+    margin-left: 1.4em;
+    padding: 1.4em;
+}
+#Header{
+    grid-area: Header;
+    background-color: #7674E1;
+    display: flex;
+    justify-content: space-between;
+}
+Header ul{
+    margin-top: 25px;
+    margin-right: 2.5em;
+    background-color: #2d232e;
+    display: flex;
+    list-style: none;
+
+}
+header ul li{
+    padding-right: 1em;
+    padding-left: 1em;
+    margin: 0.8em;
+    font-size: 1.69em;
+}
+header ul li a{
+    Color: #FFE11F;
+    text-decoration: none;
+    font-family: sk-concretica;
+}

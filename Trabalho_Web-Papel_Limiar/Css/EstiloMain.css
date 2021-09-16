@@ -1,0 +1,185 @@
+body{
+    width:100%;
+    margin: 0 auto;
+    min-width:600px;
+    max-width:2000px
+}
+@font-face{
+    font-family:sk-concretica;
+    src: url(../Fontes/SK\ Concretica.otf);
+}
+@font-face {
+    font-family: Blatant;
+    src: url(../Fontes/Blatant.otf);
+}
+@font-face {
+    font-family: Symbol;
+    src: url(../Fontes/symbol.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100pt auto auto 100pt;
+    column-gap: 1px;
+    row-gap: 42pt;
+    grid-template-areas:"Header Header Header"
+                        "Section1 Section2 Section3"
+                        "Section4 Section5 Section6"
+                        "Footer Footer Footer";
+}
+/*Rodapé*/
+/*__Imagens*/
+#insta{
+    margin-top: 15px;
+    margin-left: 60px;
+    width: 105px;
+    height: 105px;
+}
+#insta:hover {
+    width: 105px;
+    height: 105px;
+}
+#Logo_f{
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 1px;
+    margin-right: 60px;
+}
+/*__Corpo*/
+#Footer{
+    grid-area: Footer;
+    background-color: #7674E1;
+    display: flex;
+    justify-content: space-between;
+}
+/*__Lista-de-Links*/
+footer ul{
+    margin-top: 40px;
+    margin-left: 5px;
+    display: flex;
+    list-style: none;
+}
+footer ul li{
+    padding-right: 1em;
+    padding-left: 0.8em;
+    margin: 0.05em;
+    font-size: 2em;
+}
+footer ul li a{
+    Color: #FFE11F;
+    text-decoration: none;
+    font-family: sk-concretica;
+}
+/*Conteudo*/
+/*__Seções de conteudo*/
+.prods{
+    margin-left:3em;
+    margin-right:3em;
+}
+#Section1{
+    grid-area: Section1;
+}
+#Section2{
+    grid-area: Section2;
+}
+#Section3{
+    grid-area: Section3;
+}
+#Section4{
+    grid-area: Section4;
+}
+#Section5{
+    grid-area: Section5;
+}
+#Section6{
+    grid-area: Section6;
+}
+/*__Produtos - Imagem*/
+.Prod_img{
+    outline-color: #FFE11F;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    border-radius: 10px;
+}
+/*__Produtos - Textos*/
+#Prod_N{
+    text-decoration: none;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Blatant;
+    color:#7674E1;
+    letter-spacing: 3px;
+    font-family: sk-concretica;
+    background-color: #FFE11F;
+}
+mark{
+    background-color: #ffffff;
+    color: #2D232E;
+    font-family: Symbol;
+    text-decoration: none;
+}
+#Prod_P{
+    text-align: right;
+    margin-right: 40px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    font-size: 35px;
+    color: #2D232E;
+    font-family: Blatant;
+    text-decoration: none;
+}
+.prods h3{
+    margin-top:10px;
+    margin-left:40px;
+    margin-right:40px;
+    color: #2D232E;
+    text-align: left;
+    font-family: sk-concretica;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 5px solid #7674E1;
+}
+/*Cabeçalho*/
+.Nave:hover {
+    color: darkorange;
+}
+#logo{
+    margin-left: 1.4em;
+    padding: 1.4em;
+}
+#Header{
+    grid-area: Header;
+    background-color: #7674E1;
+    display: flex;
+    justify-content: space-between;
+}
+Header ul{
+    margin-top: 25px;
+    margin-right: 2.5em;
+    background-color: #2d232e;
+    display: flex;
+    list-style: none;
+
+}
+header ul li{
+    padding-right: 1em;
+    padding-left: 1em;
+    margin: 0.8em;
+    font-size: 1.69em;
+}
+header ul li a{
+    Color: #FFE11F;
+    text-decoration: none;
+    font-family: sk-concretica;
+}
