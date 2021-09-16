@@ -59,6 +59,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.dep{
+    display: flex;
+}
 /*__Lista-de-Links*/
 footer ul{
     margin-top: 40px;
@@ -147,9 +150,9 @@ mark{
     line-height: 30px;
     letter-spacing: 1px;
     text-align: left;
-    margin-left: 205px;
-    margin-right: 525px;
-    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 90px;
     font-size: 23px;
     color: #2D232E;
     font-family: Blatant;
