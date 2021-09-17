@@ -45,7 +45,7 @@ body{
     width: 105px;
     height: 105px;
 }
-#logo_f{
+#Logo_f{
     height: 100px;
     margin-top: 20px;
     display: flex;
@@ -143,7 +143,7 @@ mark{
     margin-left: 100px;
     margin-right: 100px;
     color: #2D232E;
-    font-family: Blatant;
+    font-family: sk-concretica;
     text-decoration: none;
 }
 #Depo_T{
