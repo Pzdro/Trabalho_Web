@@ -129,16 +129,19 @@ footer ul li a{
 #Text_L{
     text-decoration: none;
     margin-top: 25px;
+    line-height: 30px;
     margin-left: 120px;
     text-align: left;
-    font-family: Blatant;
+    font-family: sk-concretica;
     color: #2d232e;
     letter-spacing: 3px;
     font-size: 25px;
+    
 }
 #Tilt_R{
     text-decoration: none;
     margin-top: 15px;
+    line-height: 30px;
     margin-right: 150px;
     text-align: left;
     font-family: Blatant;
@@ -151,9 +154,10 @@ footer ul li a{
     text-decoration: none;
     margin-top: 25px;
     margin-right: 120px;
+    line-height: 30px;
     margin-left: 50px;
     text-align: left;
-    font-family: Blatant;
+    font-family: sk-concretica;
     color: #2d232e;
     letter-spacing: 3px;
     font-size: 25px;
